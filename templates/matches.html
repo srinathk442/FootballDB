@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matches</title>
+</head>
+<body>
+    <h1>Matches</h1>
+    <ul>
+        {% for match in matches %}
+        <li>Match ID: {{ match[0] }}, Date: {{ match[1] }}, Venue: {{ match[2] }}, Result: {{ match[3] }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Home</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Teams</title>
+</head>
+<body>
+    <h1>Teams</h1>
+ <!-- Correctly looping through the `teams` data -->
+<ul>
+    {% for team in teams %}
+    <li>
+        Team ID: {{ team[0] }}, Name: {{ team[1] }},
+        Coach: {{ team[2] }}, Founded: {{ team[3] }},
+        Player ID: {{ team[4] }}
+    </li>
+    {% endfor %}
+</ul>
+
+    <a href="/">Home</a>
+</body>
+</html>

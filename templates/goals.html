@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Goals</title>
+</head>
+<body>
+    <h1>Goals</h1>
+    <ul>
+        {% for goal in goals %}
+        <li>Goal ID: {{ goal[0] }}, Player ID: {{ goal[1] }}, Match ID: {{ goal[2] }}, Time: {{ goal[3] }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Home</a>
+</body>
+</html>

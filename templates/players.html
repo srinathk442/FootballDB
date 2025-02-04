@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Players</title>
+</head>
+<body>
+    <h1>Players</h1>
+    <ul>
+        {% for player in players %}
+        <li>Player ID: {{ player[0] }}, Name: {{ player[1] }}, Position: {{ player[2] }}, Age: {{ player[3] }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Home</a>
+</body>
+</html>
