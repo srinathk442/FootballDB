@@ -84,4 +84,11 @@ This project is a Flask-based web application that interacts with an SQLite data
 - Navigate through the web interface to explore teams, players, matches, and goals.
 - Use the SQL query interface to execute custom database queries.
 
+## 👤 Author
+
+**Srinath Kamalakumar**
+
+## 📝 License
+
+Licensed under [MIT](https://opensource.org/licenses/MIT)
 
